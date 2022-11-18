@@ -7,11 +7,21 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
+    <div id = "searchContainer"> <!--A container so you can format the search form-->
+        <h1>Space Encyclopedia</h1>
+        <form id = "searchForm">
+            <input id = "searchBar" placeholder = "Let's Explore Space..." type = text> <!--Search bar-->
+            <button id = "subBtn">Search</button> <!-- should pull value from searchBar-->
+        </form>
+    </div>
+    <div id = "searchHistory"> <!--should store 4 previous searches-->
+        <ul id = "previousSearch"></ul> <!--Append search history cards to this list-->
+    </div>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script
+    <!-- <script
     src="https://cdn.jsdelivr.net/npm/dayjs@1.11.3/dayjs.min.js"
     integrity="sha256-iu/zLUB+QgISXBLCW/mcDi/rnf4m4uEDO0wauy76x7U="
     crossorigin="anonymous"
-    ></script>
+    ></script> -->
     <script src = "assets/js/script.js"></script>
   </body>
