@@ -5,20 +5,8 @@ var searchResults = document.querySelector("#resultsHeader");
 searchBtn.addEventListener("click", function(event) {
     event.preventDefault();
     var searchQuery = $("#searchBar").val();
-    getNasaImages(searchQuery);
+    localStorage.setItem("query",JSON.stringify(searchQuery));
+    location.href = "./results.html";
 })
 
 
-function getNasaImages(query) {
-    var nasa_url = "https://images-api.nasa.gov/search?q=" + query + "&media_type=image"
-    fetch(nasa_url)
-    .then(function (response) {
-      return response.json();
-    })
-    .then(function (data) {
-      console.log(data)
-        var example = data.collection.items[0];
-      }
-    );
-
-} 
