@@ -34,4 +34,6 @@ function getWikiSearch(query) {
     $("#wikiSearch").append(wikiEx);
   })
 
+  $("#searchResults").text("Search Results for " + query)
+
 }
