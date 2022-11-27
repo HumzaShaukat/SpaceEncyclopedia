@@ -5,14 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weather Dashboard</title>
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
   </head>
   <body>
     <div id = "searchContainer"> <!--A container so you can format the search form-->
-        <h1>Space Encyclopedia</h1>
+        <h1 class="title is-1"><span style="color: rgb(57, 57, 172)"> SPACE</span> ENCYCLOPEDIA</h1>
         <form id = "searchForm">
-            <input id = "searchBar" placeholder = "Let's Explore Space..." type = text> <!--Search bar-->
-            <button id = "subBtn">Search</button> <!-- should pull value from searchBar-->
+            <input class="input is-link" id = "searchBar" placeholder = "Let's Explore Space..." type = text> <!--Search bar-->
         </form>
+        <button class="button is-link" id = "subBtn">Search</button> <!-- should pull value from searchBar-->
     </div>
     <div id = "searchHistory"> <!--should store 4 previous searches-->
         <ul id = "previousSearch"></ul> <!--Append search history cards to this list-->

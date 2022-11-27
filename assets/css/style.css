@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
 #imageDiv {
     display: flex;
     flex-direction: column;
@@ -60,4 +62,32 @@
     font-size: 25px;
     margin: 0;
     color: white;
+ }
+
+ .title {
+   text-align: center;
+   font-family: 'Varela Round', sans-serif;
+  
+ }
+
+#searchContainer {
+   padding-left: 400px;
+   padding-right: 400px;
+   margin-top: 200px;
+}
+
+#searchForm{
+   padding-left: 50px;
+   padding-right: 50px;
+}
+
+ #searchBar {
+   margin-top: 20px;
+   text-align: center; 
+ }
+
+
+ #subBtn{
+   margin-top: 40px;
+   margin-left: 230px;
  }
