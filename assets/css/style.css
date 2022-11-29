@@ -146,7 +146,9 @@ html{
     margin-right: 2vw;
 }
 
-@media screen and (max-width: 992px) {
+/* made results page responsive */
+
+@media screen and (max-width: 992px) { 
     #mainContainer {
         flex-direction: column;
     }
