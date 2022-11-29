@@ -9,7 +9,7 @@
   </head>
   <body>
     <header>
-      <a href = "index.html">Home</a> <!-- This needs a link and a source image-->
+      <button href = "index.html" class = "btn btn-primary" id = "homeBtn">Home</button>
       <button class = "btn btn-primary" id = "modalBtn" data-toggle="modal" data-target="#searchModal" onclick = "init_SearchHistory()">Search Again</button>
       <div class = "modal fade" id = "searchModal" tabindex="1" aria-labelledby="modalTitle" aria-hidden = "true">
         <div class = "modal-dialog">
@@ -19,9 +19,9 @@
             </div>
             <div class="modal-body">
               <form id = "searchAgain">
-                <input id="searchInput" placeholder="Search for Something Else">
-                <button  class = "btn formBtn" id = "searchBtn">Search</button>
-                <button  class = "btn formBtn" data-dismiss="modal" aria-label="Cancel">Close</button>
+                <input id="searchInput" placeholder="Search">
+                <button  class = "btn btn-secondary formBtn" id = "searchBtn">Search</button>
+                <button  class = "btn btn-secondary formBtn" data-dismiss="modal" aria-label="Cancel">Close</button>
               </form>
               <ul id = "searchHistory"></ul>   
             </div>

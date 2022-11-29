@@ -42,6 +42,7 @@ html{
     display:flex;
     justify-content:space-between;
     flex-direction:row;
+    background-image: url("../images/stars.jpg");
  }
 
  #wikiSearch {
@@ -130,3 +131,38 @@ html{
    margin-top: 1vh;
    margin-bottom: 2vh;
  }
+
+/*header is now two buttons*/
+
+ header {
+    display: flex;
+    flex-direction: row;
+    border: 1px black solid;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    background: url("../images/stars.jpg")
+ }
+
+#homeBtn {
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+/* made results page responsive */
+
+@media screen and (max-width: 992px) { 
+    #mainContainer {
+        flex-direction: column;
+    }
+    #wikiSearch {
+        width: 90vw;
+        font-size: smaller;
+    }
+    #nasaImages {
+        width: 90vw;
+    }
+    #nasaImages img {
+        max-width: 90vw;
+        max-height: 100vh;
+    }
+}
