@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 
-html{
+html{ /*formatting background*/
    background: url("../images/stars.jpg");
    height: 100%;
    background-position: center;
