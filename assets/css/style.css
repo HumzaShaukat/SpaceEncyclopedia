@@ -132,6 +132,8 @@ html{
    margin-bottom: 2vh;
  }
 
+/*header is now two buttons*/
+
  header {
     display: flex;
     flex-direction: row;
