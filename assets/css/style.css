@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+html{
+   background: url("../images/stars.jpg");
+ }
+
 #imageDiv {
     display: flex;
     flex-direction: column;
@@ -61,3 +67,45 @@
     margin: 0;
     color: white;
  }
+
+ .title {
+   text-align: center;
+   font-family: 'Varela Round', sans-serif;
+ }
+
+#searchContainer {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding-left: 10vw;
+   padding-right: 10vw;
+   margin-top: 30vh;
+   background-color: rgba(211, 211, 211, 0.6);
+   margin-left: 10vw;
+   margin-right: 10vw;
+   border: 3px solid rgb(52, 10, 52);
+   border-radius: 15px;
+   padding-top: 1vh;
+}
+
+#searchForm{
+   padding-left: 50px;
+   padding-right: 50px;
+}
+
+ #searchBar {
+   margin-top: 20px;
+   text-align: center; 
+   width: 30vw;
+ }
+
+
+ #subBtn{
+   display: flex;
+   align-self: center;
+   margin-top: 1vh;
+   margin-bottom: 2vh;
+ }
+
+ 
