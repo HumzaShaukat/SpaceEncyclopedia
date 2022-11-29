@@ -17,7 +17,6 @@ html{
     font-size: 25px;
     margin: 0;
     color: white;
-    
 }
 
 #nasaImages {
@@ -52,6 +51,7 @@ html{
     padding: 10px;
     height: 81vh;
     width: 67vw;
+    overflow-y: scroll;
  }
 
  #wikiDiv {
@@ -67,6 +67,29 @@ html{
     margin: 0;
     color: white;
  }
+
+#searchAgain {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#searchInput {
+    width: 20vw;
+}
+
+.formBtn {
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+}
+
+
+
+.historyBtn {
+    margin-left: .5vw;
+    margin-right: .5vw;
+    margin-top: 1vh;
+}
 
  .title {
    text-align: center;
@@ -107,5 +130,3 @@ html{
    margin-top: 1vh;
    margin-bottom: 2vh;
  }
-
- 
