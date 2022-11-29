@@ -88,3 +88,7 @@ $("#searchHistory").click(function(event) { //if search history button is clicke
     getWikiSearch(recentSearch);
   }
 })
+
+$("#homeBtn").click(function() {
+  location.href = "./index.html";
+})
