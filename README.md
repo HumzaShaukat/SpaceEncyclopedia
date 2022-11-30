@@ -1,6 +1,9 @@
 # SpaceEncyclopedia
 
 ## Description
+If you are curious about space, this is a perfect application for you! 
+The Space Encyclopedia not only saves time, but it gives you the important 
+bits of information that you really need all in one search! 
 
 \
 User Story
@@ -10,6 +13,13 @@ facts and pictures of space.  I want the best quality images returned
 from NASA's image database.  I want a short list of previous searches 
 I made so I can reference them again.  I want a good looking UI.
 ```
+
+# Usage
+The Space Encyclopedia is designed for users that wish to find
+all things that have to do with space within a single search.
+When searching a topic you will receive the main article 
+information from Wikipedia and images from NASA's image
+database!
 
 ## Screenshots
 ![](assets/images/ss1.png)
